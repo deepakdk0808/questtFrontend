@@ -1,0 +1,27 @@
+.productShow{
+  display:flex;
+  gap:10px;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border:0.5px solid lightgray;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .productShow{
+    display:grid;
+  }
+
+  .info {
+    width:80%;
+  }
+
+  .summary{
+    width:80%
+  }
+
+}
